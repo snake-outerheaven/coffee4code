@@ -1,4 +1,4 @@
-// Question: 1.
+// Question 1:
 // What is bytecode and why is it important
 // to Java’s use for Internet programming?
 
