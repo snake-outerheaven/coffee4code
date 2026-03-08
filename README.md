@@ -1,3 +1,3 @@
-# Finalidade
+# Goal
 
-Este é um repositório de exercícios do livro Java: A Beginner's Guide, de Herbert Schildt e Danny Coward.
+This is a repository of exercises from the book Java: A Beginner’s Guide, by Herbert Schildt and Danny Coward.
