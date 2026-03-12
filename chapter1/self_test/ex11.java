@@ -1,4 +1,6 @@
+package chapter1.self_test;
 // Question 12:
+
 // If you make a typing mistake when entering your program, what sort of error will result?
 
 // Answer: 
