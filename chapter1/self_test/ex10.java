@@ -1,4 +1,4 @@
-package chapter1.self_test;
+
 
 // Question 10:
 // Adapt Try This 1-2 so that it prints a conversion table of inches to meters. 
