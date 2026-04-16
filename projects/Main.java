@@ -2,7 +2,7 @@ package projects;
 
 import java.util.Random;
 
-import projects.Tree;
+// import projects.AVLTree;
 
 public class Main {
 
@@ -10,7 +10,7 @@ public class Main {
 
         public static void main(String[] args) {
 
-                Tree tree = new Tree();
+                AVLTree tree = new AVLTree();
 
                 for (int i = 0; i < 100; i++) {
                         char letra = (char) (gerador.nextInt(26) + 'A');
