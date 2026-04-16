@@ -16,6 +16,7 @@ public class Main {
                         char letra = (char) (gerador.nextInt(26) + 'A');
                         tree.inserir(letra);
                 }
+                
                 tree.mostrar();
 
                 return;

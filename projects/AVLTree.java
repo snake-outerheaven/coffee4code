@@ -1,6 +1,6 @@
 package projects;
 
-public class Tree {
+public class AVLTree {
         private No raiz;
 
         private static class No {
