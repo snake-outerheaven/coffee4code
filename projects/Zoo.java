@@ -1,5 +1,8 @@
 package projects;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class Animal {
 
         // atributos
@@ -64,12 +67,18 @@ class Cat extends Animal {
 
 public class Zoo {
         public static void main(String[] args) {
-                Animal animal = new Animal("Bicho");
+                List<Animal> animais = new ArrayList<Animal>();
 
-                Cat gato = new Cat("Crookshanks", "Inglês");
+                for (int i = 0; i < 10; ++i) {
+                        if (i % 2 == 0)
+                                animais.add(new Cat("Camelo", "Leopardo"));
+                        else
+                                animais.add(new Animal("Banana"));
+                }
 
-                animal.fazBarulho();
+                for (Animal ani : animais) {
+                        ani.fazBarulho();
+                }
 
-                gato.fazBarulho();
         }
 }

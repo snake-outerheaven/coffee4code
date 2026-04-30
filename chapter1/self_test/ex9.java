@@ -1,3 +1,4 @@
+package chapter1.self_test;
 
 // Question 9
 // The moon’s gravity is about 17 percent that of Earth’s. 
