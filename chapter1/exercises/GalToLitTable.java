@@ -1,13 +1,16 @@
 package chapter1.exercises;
 
 public class GalToLitTable {
+
+        private static final int lim = 45;
+
         public static void main(String[] args) {
                 double gallons, liters;
                 int counter;
 
                 counter = 0;
 
-                for (gallons = 0; gallons <= 100; gallons++) {
+                for (gallons = 0; gallons <= lim; gallons++) {
 
                         liters = gallons * 3.7854;
 
