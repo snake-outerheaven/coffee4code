@@ -4,9 +4,9 @@ public class FourthExample {
         public static void main(String[] args) {
                 int a, b, c;
 
-                a = 2;
+                a = 3;
 
-                b = 3;
+                b = 1;
 
                 if (a < b)
                         System.out.println("a is less than b");

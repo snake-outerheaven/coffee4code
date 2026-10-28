@@ -19,6 +19,6 @@ public class ThirdExample {
                 System.out.println("V after division: " + v);
                 System.out.println("X after division: " + x);
 
-                return;
+                return; // desnecessário, mas porque não?
         }
 }

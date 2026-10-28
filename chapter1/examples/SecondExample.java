@@ -5,13 +5,13 @@ public class SecondExample {
                 int var0;
                 int var1;
 
-                var0 = 1024;
+                var1 = 1024;
 
-                System.out.println("Var 0 contains " + var0);
+                System.out.println("Var 1 contains " + var0);
 
-                var1 = var0 / 2;
+                var2 = var0 / 2;
 
-                System.out.print("Var 1 contains Var 0 / 2: ");
+                System.out.print("Var 2 contains Var 0 / 2: ");
                 System.out.println(var1);
         }
 }
