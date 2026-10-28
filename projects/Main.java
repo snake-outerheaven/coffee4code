@@ -2,8 +2,6 @@ package projects;
 
 import java.util.Random;
 
-// import projects.AVLTree;
-
 public class Main {
 
         private static final Random gerador = new Random();
@@ -16,9 +14,7 @@ public class Main {
                         char letra = (char) (gerador.nextInt(26) + 'A');
                         tree.inserir(letra);
                 }
-                
-                tree.mostrar();
 
-                return;
+                tree.mostrar();
         }
 }
